@@ -52,3 +52,16 @@ if (month === 'december') {
 }
 
 })
+
+// Add active class (highlight button) to the button that is currently clicked
+var header = document.getElementById("column-left");
+var btns = header.getElementsByClassName("button");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  if (current.length > 0) { 
+    current[0].className = current[0].className.replace(" active", "");
+  }
+  this.className += " active";
+  });
+}
