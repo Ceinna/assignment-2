@@ -75,7 +75,8 @@ body {
     word-spacing: normal;
   }
   
-  .button:hover {
+  /* Recolor Button on Hover, Disable when Active */
+  .button:hover:not(.active) {
     background: #ccc;
     box-shadow: -15px -15px 30px 0 #fff, 15px 15px 30px 0 #1d0dca17;
   }
