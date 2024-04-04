@@ -88,7 +88,7 @@ body {
 
   /* Style the active class, and buttons on mouse-over */
   .active, .button:hover {
-    background-color: #ffe797;
+    background-color: #fff2c9;
     color: #9dac92;
   }
   
