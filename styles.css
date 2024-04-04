@@ -1,28 +1,30 @@
+/* Format body to be one color */
 body {
     background-color: #F5F5FA;
    }
    
-  
+   /* Format Header with Image */
   header {
     overflow: auto;
-    background-color: black;
+    background-color: #b2beb5;
     text-align: center;
     font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
-    color: #fff49b;
-    font-size: 35px;
+    color: #fff7d6;
+    font-size: 75px;
     margin: 0px 0px 18px 0px;
     border-radius: 6px;
     padding: 20px;
-     line-height: 80px;
+     line-height: 150px;
   }
   
   header img {
     float: left;
-    width: 80px;
-    height: 80px;
+    width: 150px;
+    height: 150px;
     border-radius: 6px;
   }
   
+  /* Format Columns to be equal in size */
   .column {
     flex: 50%;
   }
@@ -32,6 +34,7 @@ body {
     display: flex;
   }
   
+  /* Format Right Column: Fixed Size and No-Repeats for Image that Appears Once Button is Clicked */
   #column-right {
     background-size: contain;
     background-repeat: no-repeat;
@@ -39,10 +42,10 @@ body {
     text-align: center;
     padding-top: 120px;
     font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
-    font-size: 1.5rem;
+    font-size: 3rem;
   }
   
-  /* CSS */
+  /* Format Buttons */
   .button {
     align-items: center;
     background: #f5f5fa;
@@ -55,7 +58,8 @@ body {
     cursor: pointer;
     display: inline-block;
     font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
-    font-size: 1rem;
+    /* Font Size: Adjust to Make Buttons Bigger */
+    font-size: 3rem;
     justify-content: center;
     line-height: 1.5rem;
     padding: 15px;
@@ -84,7 +88,7 @@ body {
 
   /* Style the active class, and buttons on mouse-over */
   .active, .button:hover {
-    background-color: #666;
-    color: white;
+    background-color: #ffe797;
+    color: #9dac92;
   }
   

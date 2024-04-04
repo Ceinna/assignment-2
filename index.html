@@ -1,3 +1,4 @@
+<!-- Copied from HTML5 Template: https://www.sitepoint.com/a-basic-html5-template/ -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,14 +10,16 @@
 </head>
 
 <body>
+    <!-- Header with Image -->
     <header>
         <img src="https://i.postimg.cc/JhyrMNYY/9-CC885-F3-560-E-4553-BBA8-780-FF77407-A6.jpg">
       Ceinna's 2024 Book Planner
-  </header>
+    </header>
   
-  
+  <!-- Buttons in Left Column -->
   <div class="container">
     <div id="column-left" class="column">
+        <!-- Renamed with Position Numbers to Simplify jquery -->
         <button class="button" data-position='0' role="button">January</button>
         <button class="button" data-position='1' role="button">February</button>
         <button class="button" data-position='2' role="button">March</button>
@@ -30,12 +33,15 @@
         <button class="button" data-position='10' role="button">November</button>
         <button class="button" data-position='11' role="button">December</button>
     </div>
+
+    <!-- Right Column: Images Appear when Buttons are Clicked -->
     <div id="column-right" class="column" >
         Click to View the 
         <br>Book of the Month.
     </div>
   </div>
-
+  
+  <!-- Import jquery from a CDN -->
   <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
   <script src="scripts.js"></script>
 </body>
