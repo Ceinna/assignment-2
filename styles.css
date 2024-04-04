@@ -40,9 +40,9 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
-    padding-top: 120px;
+    padding-top: 200px;
     font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
-    font-size: 3rem;
+    font-size: 2rem;
   }
   
   /* Format Buttons */
