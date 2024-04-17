@@ -1,4 +1,4 @@
-# Assignments 1 & 2
+# 2024 Book Planner
 
 This is a repo of code for the second assignment for the Advanced GIS: Interactive Web Mapping and Spatial Data Visualization course at NYU Wagner, Spring 2024.
 
